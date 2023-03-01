@@ -38,6 +38,7 @@ public class WebOrderTask3 {
 
             driver.findElement(By.linkText("Logout")).click();
 
+
             driver.quit();
 
     }

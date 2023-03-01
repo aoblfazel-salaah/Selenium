@@ -31,7 +31,9 @@ public class task2 {
         driver.findElement(By.name("reg_email__")).sendKeys("omidsalaah@gmail.com");
         driver.findElement(By.name("reg_passwd__")).sendKeys("omidomid@4");
         driver.findElement(By.name("websubmit")).click();
-        driver.findElement(By.id("u_2_9_Iq")).click();
+        driver.findElement(By.xpath("//img[@src='https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/zgulV2zGm8t.png']")).click();
+
+
 
         driver.close();
 
