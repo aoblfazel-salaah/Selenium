@@ -26,8 +26,8 @@ public class task2 {
 
         List<WebElement> options=driver.findElements(By.cssSelector("input[class='cb1-element']"));
         for (WebElement option:options){
-            String optText= option.getAttribute("value");
-            if (optText.equalsIgnoreCase("Option-2")){
+            String valueAttribute= option.getAttribute("value");
+            if (valueAttribute.equalsIgnoreCase("Option-2")){
                 option.click();
             }
 
